@@ -24,7 +24,7 @@ ChartJS.register(
 );
 export default function MainSection() {
   const data = {
-    labels: ["Blue"],
+    labels: ["Questions"],
     datasets: [
       {
         label: "Votes",
