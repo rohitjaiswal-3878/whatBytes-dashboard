@@ -23,13 +23,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-y-auto overflow-x-hidden`}
       >
-        <Header />
-        <div className=" h-[100vh] fixed w-[100vw] flex">
-          <Menu />
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   );
